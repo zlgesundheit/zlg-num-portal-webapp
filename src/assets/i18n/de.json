@@ -3,36 +3,36 @@
   "DASHBOARD": {
     "LATEST_PROJECTS": "Neueste Projekte",
     "INTRODUCTION": {
-      "HEADER": "Covid-19-Exchange Data Platform",
+      "HEADER": "Nutzerschnittstelle für die ZLG-Plattform basierend auf der NUM CODEX \"Covid-19-Exchange Data Platform\"",
       "BLOCKS": [
         {
           "HEADER": "Einleitung",
-          "BODY": "Das Netzwerk Universitätsmedizin (NUM) baut mit der CODEX-Forschungsdatenplattform eine sichere und interoperable Plattform zur Bereitstellung von Forschungsdaten zu COVID-19. CODEX verbindet alle deutschen Universitätskliniken bundesweit und stellt der Wissenschaft eine Plattform zur Erhebung und Auswertung strukturierter, pseudonymisierter und versorgungsbezogener Daten aus der Patient*Innenversorgung („real world data“) mit hoher Qualität zur Verfügung."
+          "BODY": "Das Zukunftslabor Gesundheit (ZLG) nutzt die EHRBase, ein openEHR Clinical Data Repository, um Daten auf interoperable Weise unter Verwendung des openEHR-Technology Framework zu speichern. Um die Daten für die Endnutzer zugänglich zu machen, beinhaltet die Plattform das NUM-Portal sowie die vom NUM CODEX Projekt entwickelte NUM WebApp. Dies ermöglicht die Datenverwaltung, Datensuche, Benutzerverwaltung und mehr. Sie können die offiziellen NUM CODEX-Images verwenden oder diese spiegeln, um Ihr eigenes Bild mit geändertem Stil/Text zu erstellen."
         },
         {
-          "HEADER": "Wozu wird CODEX benötigt?",
-          "BODY": "Während der langwierigen Pandemiezeit sind im Zuge der Versorgung von COVID-19-Patient*Innen innerhalb der IT-Systeme und elektronischen Krankenaktensysteme der Universitätskliniken zahlreiche forschungsrelevante Daten und Erkenntnisse generiert worden. Daten, die möglichst standardisiert erhoben und zeitnah erfasst sowie zentral zusammengeführt und ausgewertet werden müssen, um eine zielgerichtete Forschung zu COVID-19 zu ermöglichen. Genau hier setzt CODEX an."
+          "HEADER": "Wie können Daten importiert werden?",
+          "BODY": "Mit dem openEHR_FLAT_Loader stehen python-basierte Skripte zum Import/Export von Daten über CLI und REST zur Verfügung. Diese Skripte können eine Excel-Mapping-Datei erzeugen, die es Ihnen ermöglicht, Ihre Quelldaten (.csv-Datei) auf die Datenelemente eines bestehenden openEHR-Templates zu mappen. Mit diesem manuellen, benutzerdefinierten Mapping können Sie die Skripte verwenden, um Compositions-Dateien zu erzeugen, die auch auf einen openEHR-Repository-Server (wie EHRBase oder Better Server) hochgeladen werden können. Weitere Informationen finden Sie im <a href=\"https://github.com/zlgesundheit/openEHR_FLAT_Loader\" target=\"_blank\" rel=\"noopener\">Github-Repository des openEHR_FLAT_Loaders</a>. Es sind auch andere Lösungen verfügbar (siehe z.B. HaMSTRETLBuilder)."
         },
         {
-          "HEADER": "CODEX Benutzerportal",
-          "BODY": "Das NUM CODEX Benutzerportal ermöglicht den zentralisierten Zugang zu forschungsrelevanten Gesundheitsdaten. Umgesetzt wird dies durch Machbarkeitsabfragen und, soweit die Nutzungsvoraussetzungen erfüllt sind, eine zentrale Datenherausgabe. Nationale und internationale Forscher*Innen können auf diese Weise, hochrelevante Daten zu COVID-19-Erkrankungen auswerten und somit einen Beitrag zur Bekämpfung der Pandemie leisten. Der operative Betrieb des CODEX Benutzerportals obliegt dem HiGHmed e.V."
+          "HEADER": "Welche Ziele verfolgt das Zukunftslabor Gesundheit?",
+          "BODY": "Im Teilprojekt 1 des ZLG arbeiten wir an der Erprobung einer technischen Lösung für den Austausch (und die Nutzung) von Forschungsdaten. Die beteiligten Partner sollen in die Lage versetzt werden, Daten unter Verwendung des OpenEHR Data Framewoks auszutauschen. <br/> Die Arbeit an einer interoperablen Forschungsplattform führt zu den Kernzielen des Future Lab Health und des organisatorisch übergeordneten Zentrums für Digitale Innovationen Niedersachsen (kurz: ZDIN). Der Fokus des ZDIN und damit der Future Labs liegt auf der Vernetzung von Akteuren, Ideen und Kompetenzen aus Forschung und Praxis. Durch die Vernetzung und Digitalisierung der niedersächsischen Spitzenakteure aus Wissenschaft und Wirtschaft soll der Standort Niedersachsen gestärkt werden. Die an den Future Labs beteiligten Partner setzen interdisziplinär und standortübergreifend zukunftsweisende Forschungsprojekte um oder initiieren diese gemeinsam. <br/> Ähnliche Projekte, wie das Projekt HiGHmed, haben bereits in ihrer Projektlaufzeit gezeigt, wie komplex und finanziell aufwändig der Aufbau von Forschungsdateninfrastrukturen sowohl personell als auch in Bezug auf Hard- und Software ist. Im Projekt HiGHmed werden an Universitätskliniken Medizinische Datenintegrationszentren aufgebaut, in denen medizinische Daten interoperabel modelliert, gespeichert und unter bestimmten Voraussetzungen für den interinstitutionellen Austausch zur Verfügung gestellt werden. <br> Im Rahmen des ZL-G finden Arbeiten statt, die sowohl die strategischen Ziele des ZL-G und des ZDIN unterstützen, als auch ähnliche Projekte wie HiGHmed ergänzen und sich somit, orientiert am aktuellen Stand der Wissenschaft, sinnvoll in die Wissenschaftslandschaft einfügen."
         },
         {
-          "HEADER": "Welche Ziele hat CODEX?",
-          "BODY": "Die Plattform wurde geschaffen, um qualitativ hochwertige Forschungsdaten, Tools und Surveillance in der COVID-19-Pandemie bereitzustellen. Strukturierte Daten dienen als Grundlage neuartiger wissenschaftlicher Auswertungen und helfen bei der Entwicklung evidenzbasierter Entscheidungsunterstützungssysteme. Auf diese Weise trägt CODEX zu einem schnellen Erkenntnisgewinn bei und somit zum verbesserten Krisenmanagement bei pandemischen Notlagen wie auch einer optimierten Gestaltung des Gesundheitswesens insgesamt. Daraus ergeben sich folgende Vorteile:<ul><li>Für Patient*Innen: Bestmögliche Krankenversorgung bei COVID-19 durch schnelle Generierung und Verbreitung von Evidenz und Berücksichtigung rechtlicher und ethischer Fragestellungen</li><li>Für Forscher*Innen: Belastbare Datengrundlage zur Erforschung wissenschaftlicher Fragestellungen im Kontext der Erkrankung COVID-19</li><li>Für Industrie: das Schaffen von Grundlagen für die Impfstoff- und Wirkstoffentwicklung sowie das Trainieren künstlicher Intelligenz</li><li>Für Entscheider*Innen: die Optimierung des Krisenmanagements bei epidemischen Notlagen sowie eine optimierte Gestaltung des Gesundheitswesens insgesamt durch die Unterstützung politischer Entscheidungen auf Basis wissenschaftlicher Fakten</li><li>Für Ärzt*Innen und Behörden: Pandemiemanagement und Patientenversorgung können durch innovative, qualitativ hochwertige Dienste und Applikationen verbessert werden und für Entlastung sorgen</li></ul>"
+          "HEADER": "Förderung",
+          "BODY": "Diese Forschung wurde vom Niedersächsischen Ministerium für Wissenschaft und Kultur unter dem Förderkennzeichen ZN3491 im Rahmen des niedersächsischen \"Vorab\" der VolkswagenStiftung gefördert und vom Zentrum für Digitale Innovationen (ZDIN) unterstützt."
         }
       ],
-      "PARTICIPANTS": "Teilnehmende Kliniken"
+      "PARTICIPANTS": "Teilnehmende Partner"
     },
     "INFO_CARD": {
       "HEADER": "Info Board"
     },
     "PARTICIPATING": {
-      "HEADER": "Teilnehmende Kliniken"
+      "HEADER": "Teilnehmende Partner"
     },
     "METRICS": {
-      "PROJECTS": "{{count}} Projekte in CODEX veröffentlicht",
-      "QUERIES": "{{count}} Kriterien in CODEX verfügbar",
+      "PROJECTS": "{{count}} Projekte in ZLG-Plattform veröffentlicht",
+      "QUERIES": "{{count}} Kriterien in ZLG-Plattform verfügbar",
       "ORGANIZATIONS": "{{count}} teilnehmende Universitätskliniken"
     }
   },
@@ -54,7 +54,7 @@
     }
   },
   "NAVIGATION": {
-    "DASHBOARD": "Willkommen bei CODEX",
+    "DASHBOARD": "Willkommen beim ZLG",
     "DATA_FILTER": "Datenfilter",
     "PATIENT_FILTER": "Patientenfilter",
     "PROJECTS": "Projekte",
@@ -561,13 +561,13 @@
     "TITLE": "Datenschutzinformation",
     "DESCRIPTION": "Der Betriebsverantwortliche dieser Website nimmt den Schutz Ihrer personenbezogenen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften.",
     "RESPONSIBLE_ENTITY_TITLE": "1. Hinweis zum Verantwortlichen",
-    "RESPONSIBLE_ENTITY_TEXT": "Der Verantwortliche für die Datenverarbeitung auf dieser Website ist: <br /> HiGHmed e.V. <br /> Langer Anger 7/9 <br /> 69115 Heidelberg",
+    "RESPONSIBLE_ENTITY_TEXT": "Der Verantwortliche für die Datenverarbeitung auf dieser Website ist: <br /> Universitätsmedizin Göttingen <br /> Institut für Medizinische Informatik <br/> Robert-Koch-Str. 40 <br /> 37075 Göttingen, Deutschland",
     "OFFICER_TITLE": "2. Datenschutzbeauftragter",
     "OFFICER_DESCRIPTION": "Bei Fragen zur Verarbeitung Ihrer personenbezogenen Daten, sowie zu Ihren Rechten rund um den Datenschutz, wenden Sie sich bitte an unseren Datenschutzbeauftragten:",
-    "OFFICER_TEXT1": "Dirk Seeliger <br /> expertree consulting GmbH <br /> Friedensallee 110 <br /> 63263 Neu-Isenburg",
-    "OFFICER_TEXT2": "E-Mail: <a href=\"mailto:ds-service@expertree.de\">ds-service@expertree.de</a> <br /> Telefon: 069 / 6102 8150 556",
+    "OFFICER_TEXT1": "Florian Gottschalk <br/> Universitätsmedizin Göttingen <br/> 37099 Göttingen",
+    "OFFICER_TEXT2": "E-Mail: <a href=\"mailto:datenschutz@med.uni-goettingen.de \">datenschutz@med.uni-goettingen.de</a> <br/> Phone: 0551 / 39 62 762",
     "GENERAL_DATA_TITLE": "3. Allgemeine Daten und Information bei dem Besuch der Website",
-    "GENERAL_DATA_DESCRIPTION": "Die durch HiGHmed e.V. betriebene Website erfasst mit jedem Aufruf der Website eine Reihe von allgemeinen Daten und Informationen. Diese allgemeinen Daten und Informationen werden in den Logfiles des Servers gespeichert und automatisch durch Ihren Browser an den HiGHmed e.V. übermittelt. Erfasst werden können:",
+    "GENERAL_DATA_DESCRIPTION": "Die durch das Institut für Medizinische Informatik betriebene Website erfasst mit jedem Aufruf der Website eine Reihe von allgemeinen Daten und Informationen. Diese allgemeinen Daten und Informationen werden in den Logfiles des Servers gespeichert und automatisch durch Ihren Browser an den HiGHmed e.V. übermittelt. Erfasst werden können:",
     "GENERAL_DATA_LIST": [
       {
         "TEXT": "IP-Adresse;"
@@ -661,8 +661,6 @@
         "TITLE": "a. Auftragsverarbeiter",
         "SUBTITLE1": "Operativer Betrieb",
         "TEXT1": "Rechenzentrum der GWDG <br /> GWDG - Gesellschaft für wissenschaftliche <br /> Datenverarbeitung mbH Göttingen <br /> Am Fassberg 11, 37077 Göttingen <br /> E-Mail: <a href=\"mailto:piotr.kasprzak@gwdg.de\">piotr.kasprzak@gwdg.de</a> <br /> www: <a href=\"https://www.gwdg.de\" target=\"_blank\" rel=\"noopener\">https://www.gwdg.de</a>",
-        "SUBTITLE2": "Administration Plattform",
-        "TEXT2": "vitagroup health intelligence GmbH <br /> Hamburger Str. 273b <br /> 38114 Braunschweig <br /> E-Mail: <a href=\"mailto:itos@vitagroup.ag\">itos@vitagroup.ag</a> <br /> www: <a href=\"https://www.vitagroup.ag\" target=\"_blank\" rel=\"noopener\">https://www.vitagroup.ag</a>"
       },
       "PART_B": {
         "TITLE": "b. Dritte",
@@ -767,7 +765,7 @@
       "RIGHTS_PART_K": {
         "TITLE": "k. Recht auf Beschwerde bei einer Aufsichtsbehörde",
         "DESCRIPTION": "Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde zu, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt. Zuständige Aufsichtsbehörde in datenschutzrechtlichen Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem der Verantwortlicheseinen Sitz hat.",
-        "TEXT": "HiGHmed e.V.hat seinen Sitz in Heidelberg. <br/> Die zuständige Aufsichtsbehörde ist daher: <br /> Der Landesbeauftragte für den Datenschutz und die Informationsfreiheit in Baden-Württemberg <br /> Lautenschlagerstraße 20 <br /> 70173 Stuttgart <br /> E-Mail: <a href=\"mailto:poststelle@lfdi.bwl.de\">poststelle@lfdi.bwl.de</a>"
+        "TEXT": "Für die UMG in Göttingen ist die im Rahmen des Datenschutzes zuständige Datenschutz-Aufsichtsbehörde: <br/> Die Landesbeauftragte für den Datenschutz Niedersachsen <br /> Prinzenstraße 5 <br /> 30159 Hannover <br /> E-Mail: <a href=\"mailto:poststelle@lfd.niedersachsen.de\">poststelle@lfd.niedersachsen.de</a>"
       }
     },
     "PRIVACY_INFO": {
@@ -777,17 +775,11 @@
   },
   "CONTACT": {
     "TITLE": "Kontakt",
-    "DESCRIPTION": "Verantwortlich nach Art. 4 Satz 1 Nr. 7 DSGVO für die zentrale Plattform von CODEX ist das NUM und somit die Charité - Universitätsmedizin Berlin als koordinierende Stelle.",
-    "SUBTITLE1": "Informationen i.S.d. § 5 TMG",
-    "TEXT1": "Charité - Universitätsmedizin Berlin (Koordinierungsstelle) <br /> Charitéplatz 1 <br /> 10117 Berlin",
-    "SUBTITLE2": "Vertretungsberechtigter",
-    "TEXT2": "Die Charité - Universitätsmedizin Berlin ist eine Körperschaft des Öffentlichen Rechts. Sie wird durch den Vorstandsvorsitzenden gesetzlich vertreten: Prof. Dr. Heyo K. Kroemer, der Vorstandsvorsitzende der Charité - Universitätsmedizin Berlin",
-    "TEXT3": "Umsatzsteuernummer: DE 228847810",
-    "TEXT4": "Die zuständige Aufsichtsbehörde ist der Regierende Bürgermeister von Berlin - inkl. Wissenschaft und Forschung und die Senatsverwaltung für Gesundheit, Pflege und Gleichstellung. <br /> Kontakt: <a href=\"https://www.berlin.de/rbmskzl/\">https://www.berlin.de/rbmskzl/</a> <br /> Kontakt: <a href=\"https://www.berlin.de/sen/gpg/\">https://www.berlin.de/sen/gpg/</a>",
-    "SUBTITLE3": "Verantwortlicher für journalistisch-redaktionelle Angebote i. S. d. § 55 Abs.2 RStV",
-    "TEXT5": "Ralf Heyder, Leiter der Koordinierungsstelle <br /> Charitéplatz 1 <br /> 10117 Berlin <br /> Telefon: 030 450 570 292 <br /> <a href=\"mailto:forschungsnetzwerk-unimedizin@charite.de\">forschungsnetzwerk-unimedizin@charite.de</a>",
-    "TEXT6": "Technisch verantwortlich für die genutzte zentrale IT-Infrastruktur ist die GWDG. Ebenso liegt die Administration der Infrastruktur sowie die Netzwerkadministration bei der GWDG. Auf Applikationsebene wird die zentrale Forschungsplattform durch die vitasystems GmbH administriert. Sowohl die GWDG als auch die vitasystems GmbH handeln dabei im Auftrag der koordinierenden Stelle.",
-    "SUBTITLE4": "Kontakt",
+    "DESCRIPTION": "Dies ist eine Testinstanz der zlg-Plattform, die keiner Weise echte Patienten-/Medizinische-Daten speichert.",
+    "SUBTITLE1": "Kontakt",
+    "TEXT1": "Universitätsmedizin Göttingen <br/> Institut für Medizinische Informatik <br/> Prof. Dr. Dagmar Krefting <br/> Institutsleitung <br/> Robert-Koch-Str. 40 <br/> 37075 Göttingen, Deutschland",
+    "SUBTITLE2": "Wenn Sie Fragen haben, wenden Sie sich bitte an den aktuellen Maintainer",
+    "TEXT2": "Jendrik Richter <br/> Robert-Koch-Str. 40 <br/> 37075 Göttingen, Deutschland <br/> <a href=\"mailto:jendrik.richter@med.uni-goettingen.de\">jendrik.richter@med.uni-goettingen.de</a>",
     "SUBTITLE5": "Umgang mit Kontaktdaten",
     "CONTACT_HANDLING1": "Wenn Sie uns Anfragen zukommen lassen, werden Ihre angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert. Welche Kontaktdaten Sie eingeben, ist Ihnen überlassen, es handelt sich um keine Pflichtangaben, zumindest eine Kontaktmöglichkeit müssen Sie aber angeben (Anschrift, Telefon oder E-Mail), damit wir Ihre Anfrage bearbeiten können. Die von Ihnen eingegebenen Daten geben wir nicht ohne Ihre Einwilligung weiter. Falls dies geplant ist, werden wir Sie vorher um Ihre Einwilligung bitten.",
     "CONTACT_HANDLING2": "Die Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO. Unser berechtigtes Interesse ist Ihre Anfrage zu beantworten. Richtet sich die Kontaktanfrage auf einen bestehenden Vertrag, so ist die Rechtsgrundlage für die Verarbeitung Art. 6 Abs. 1 lit. b DSGVO.",
@@ -797,43 +789,18 @@
   "IMPRINT": {
     "TEXTS": {
       "HEADING": "Impressum",
-      "DESCRIPTION": "Verantwortlich nach Art. 4 Satz 1 Nr. 7 DSGVO für den Betrieb der Website ist der HiGHmed e.V.",
-      "INFO_HEADER": "Informationen i.S.d. § 5 TMG",
-      "INFO_CONTENT": "HiGHmed e.V: <br /> Langer Anger 7/9 <br /> 69115 Heidelberg <br /><br /> E-Mail: geschaeftsstelle@highmed.org",
-      "REPRESENTATIVE_TITLE": "Vertretungsberechtigter",
-      "REPRESENTATIVE_DESCRIPTION": "Der HiGHmed e.V. ist ein im Vereinsregister eingetragener Verein und wird gesetzlich vertreten durch den Vorstand:",
-      "PROFS": [
-        "Prof. Dr. Roland Eils (Vorsitzender, einzelvertretungsberechtigt)",
-        "Prof. Dr. Michael Marschollek (stv. Vorsitzender)",
-        "Prof. Dr. Björn Bergh",
-        "Prof. Dr. Ramin Yahyapour",
-        "Dr.-Ing. Steffen Ortmann"
-      ],
-      "REGISTRATION_NUMBER_TITLE": "Registernummer",
-      "REGISTRATION_NUMBER_TEXT": "VR 702758, Amtsgericht Mannheim – Registergericht –",
-      "VAT_TITLE": "Umsatzsteuernummer",
-      "VAT_TEXT": "Nicht erteilt",
-      "JOURNALISTIC_EDITORIAL_TITLE": "Verantwortlicher für journalistisch-redaktionelle Angebote i. S. d. § 55 Abs.2 RStV",
-      "JOURNALISTIC_EDITORIAL_TEXT": "HiGHmed e.V <br /> Prof. Dr. Roland Eils <br /> Langer Anger 7/9 <br /> 69115 Heidelberg <br /> <a href=\"mailto:geschaeftsstelle@highmed.org\">geschaeftsstelle@highmed.org</a>",
+      "DESCRIPTION": "Dies ist eine Testinstanz der zlg-Plattform, die keiner Weise echte Patienten-/Medizinische-Daten speichert.",
       "CONTACT_TITLE": "Kontakt",
-      "CONTACT_TEXT": "HiGHmed e.V <br /> Langer Anger 7/9 <br /> 69115 Heidelberg <br /> E-Mail: <a href=\"mailto:geschaeftsstelle@highmed.org\">geschaeftsstelle@highmed.org</a> <br /> <a href=\"https://www.highmed.org\">https://www.highmed.org</a>",
+      "CONTACT_TEXT": "Universitätsmedizin Göttingen <br/> Institut für Medizinische Informatik <br/> Prof. Dr. Dagmar Krefting <br/> Institutsleitung <br/> Robert-Koch-Str. 40 <br/> 37075 Göttingen, Deutschland",
       "DISCLAIMER_TITLE": "Haftungsausschluss und Copyright",
-      "DISCLAIMER_TEXT1": "Die durch HiGHmed e.V. betriebene Website bietet Ihnen eine Vielzahl von Informationen, die regelmäßig aktualisiert werden. Sie können unsere Informationen speichern und Verknüpfungen zu unseren Seiten einrichten. Bei Verlinkung von kommerziellen Anbietern muss die verlinkte Website alleiniger Bestandteil des Navigator-Fensters sein. Die Informationen dürfen nicht verändert oder verfälscht werden.",
-      "DISCLAIMER_TEXT2": "Die auf dieser Webseite veröffentlichten Inhalte, Werke und bereitgestellten Informationen unterliegen dem deutschen Urheberrecht und Leistungsschutzrecht. Eine Vervielfältigung, Bearbeitung oder Verwendung in anderen gedruckten Publikationen ist nur nach vorheriger Genehmigung des Autors oder Rechteinhabers gestattet. Weiterhin können Bilder, Grafiken, Text- oder sonstige Dateien dem Urheberrecht Dritter unterliegen.  Inhalte Dritter werden als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.",
+      "DISCLAIMER_TEXT1": "Die Website bietet Ihnen Informationen, die nicht regelmäßig aktualisiert werden. Bei der Verlinkung zu kommerziellen Anbietern muss die verlinkte Website alleiniger Bestandteil des Navigationsfensters sein. Die Informationen dürfen nicht verändert oder verfälscht werden.",
+      "DISCLAIMER_TEXT2": "Die auf dieser Website bereitgestellten Inhalte, Werke und Informationen unterliegen dem deutschen Urheber- und Leistungsschutzrecht. Eine Vervielfältigung, Bearbeitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der vorherigen Zustimmung des jeweiligen Autors bzw. Erstellers. Weiterhin können Bilder, Grafiken, Texte oder sonstige Dateien dem Urheberrecht Dritter unterliegen.  Inhalte Dritter sind als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen.",
       "OWN_PAGES_TITLE": "Inhalt der eigenen Seiten",
-      "OWN_PAGES_TEXT": "Der Betreiber der Website, HiGHmed e.V., übernimmt keine Gewähr für die Aktualität, Vollständigkeit oder Qualität der bereitgestellten Inhalte. Alle kostenfreien Angebote sind unverbindlich. Die Redaktion behält es sich vor, jederzeit ohne vorherige Ankündigung das Angebot zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung einzustellen.",
+      "OWN_PAGES_TEXT": "Der Betreiber der Website übernimmt keinerlei Gewähr für die Aktualität, Vollständigkeit oder Qualität der bereitgestellten Inhalte. Alle Angebote sind freibleibend und unverbindlich. Die Redaktion behält es sich vor, jederzeit ohne vorherige Ankündigung das Angebot zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung einzustellen.",
       "LINKS_TITLE": "Links auf die Websites Dritter",
-      "LINKS_TEXT1": "Der Betreiber der Website, HiGHmed e.V., ist als Inhaltsanbieter nach § 7 Absatz 1 Telemediengesetz für die “eigenen Inhalte”, die sie zur Nutzung bereithält, nach den allgemeinen Gesetzen verantwortlich. Von diesen eigenen Inhalten sind Querverweise (“Links”) auf die von anderen Anbietern bereitgehaltenen Inhalte zu unterscheiden. Durch den Querverweis hält HiGHmed e.V. insofern “fremde Inhalte” zur Nutzung bereit, die in dieser Weise gekennzeichnet sind.",
-      "LINKS_TEXT2": "Die veröffentlichten Links werden mit größtmöglicher Sorgfalt recherchiert und zusammengestellt. Der Betreiber der Website, HiGHmed e.V., hat bei der erstmaligen Verknüpfung zwar den fremden Inhalt daraufhin überprüft, ob durch ihn eine mögliche zivilrechtliche oder strafrechtliche Verantwortlichkeit ausgelöst wird. Er überprüft aber die Inhalte, auf die sie in ihrem Angebot verweist, nicht ständig auf Veränderungen, die eine Verantwortlichkeit neu begründen könnten. Wenn er feststellt oder von anderen darauf hingewiesen wird, dass ein konkretes Angebot, zu dem sie einen Link bereitgestellt hat, eine zivil- oder strafrechtliche Verantwortlichkeit auslöst, wird er den Verweis auf dieses Angebot aufheben. Für fremde Hinweise ist HiGHmed e.V. nur dann verantwortlich, wenn er von (potentiell) rechtswidrigem bzw. strafbarem Inhalt positive Kenntnis hat, und es technisch möglich und zumutbar ist, deren Nutzung zu verhindern.",
-      "PUBLIC_KEYS_TITLE": "Public Keys"
+      "LINKS_TEXT1": "Der Betreiber der Website ist als Inhaltsanbieter nach § 7 Abs. 1 Telemediengesetz für die \"eigenen Inhalte\", die er zur Nutzung bereithält, nach den allgemeinen Gesetzen verantwortlich. Von diesen eigenen Inhalten sind Querverweise (\"Links\") auf die von anderen Anbietern bereitgehaltenen Inhalte zu unterscheiden. Durch den Querverweis hält die Website \"fremde Inhalte\" zur Nutzung bereit, die in dieser Weise gekennzeichnet sind.",
+      "LINKS_TEXT2": "Die veröffentlichten Links werden mit größtmöglicher Sorgfalt recherchiert und zusammengestellt. Der Betreiber der Website hat bei der erstmaligen Verknüpfung den fremden Inhalt daraufhin überprüft, ob durch ihn eine mögliche zivilrechtliche oder strafrechtliche Verantwortlichkeit ausgelöst wird. Wenn er feststellt oder von anderen darauf hingewiesen wird, dass ein konkretes Angebot, zu dem er einen Link bereitgestellt hat, eine zivil- oder strafrechtliche Verantwortlichkeit auslöst, wird er den Verweis auf dieses Angebot aufheben. Für fremde Hinweise ist der Betreiber nur dann verantwortlich, wenn er von einem rechtswidrigen oder strafbaren Gehalt positive Kenntnis hat und es technisch möglich und zumutbar ist, deren Nutzung zu verhindern.",
     },
-    "PUBLIC_KEY_LINKS": {
-      "INTRO": "Hier finden Sie die Links zu den jeweiligen Öffentlichen Schlüsseln für die sichere Übertragung der Daten an Prod, bzw. Pre-Prod.",
-      "LINK_PRE_PROD_HREF": "https://keys.num-codex.de/crr_public-key-pre-prod.pem",
-      "LINK_PRE_PROD_DESCRIPTION": "Öffentlicher Schlüssel für Pre-Prod",
-      "LINK_PROD_HREF": "https://keys.num-codex.de/crr_public-key-prod.pem",
-      "LINK_PROD_DESCRIPTION": "Öffentlicher Schlüssel für Prod"
-    }
   },
   "AQL_CONNECTOR_ITEM_CHECKBOX_TOOLTIP": "Ist diese Checkbox aktiviert, kann für das Kriterium ein Wert festgelegt werden. Wenn die Checkbox deaktiviert wird, werden alle Patienten ausgewählt, bei denen dieses Kriterium dokumentiert ist, unabhängig vom dokumentierten Wert."
 }

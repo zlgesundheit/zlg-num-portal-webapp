@@ -3,15 +3,15 @@
   "DASHBOARD": {
     "LATEST_PROJECTS": "Latest Projects",
     "INTRODUCTION": {
-      "HEADER": "Covid-19-Exchange Data Platform",
+      "HEADER": "User interface for the ZLG platform based on the NUM CODEX \"Covid-19-Exchange Data Platform\"",
       "BLOCKS": [
         {
           "HEADER": "Introduction",
-          "BODY": "With the CODEX research data platform, the Network University Medicine (NUM) is building a secure and interoperable platform for the provision of research data on COVID-19. CODEX connects all German university hospitals nationwide and provides science with a platform for the collection and analysis of high quality, structured, pseudonymized and care-related data from patient care (\"real world data\")."
+          "BODY": "The ZLG is using the EHRBase an openEHR Clinical Data Repository to store data in an interopable way using the openEHR-Technology Framework. To make the data accessible by endusers the platform incorporates the NUM-Portal as well as NUM WebApp developed by NUM CODEX project. This allows for data management, data search, user management and more. You may use the official NUM CODEX images or fork/mirror those to build your own image with altered style/texts."
         },
         {
-          "HEADER": "What is CODEX required for?",
-          "BODY": "During the protracted pandemic period, numerous research-relevant data and findings on COVID-19 patients were generated within the IT systems and electronic medical record systems of university hospitals. Data must be collected in a standardized and timely manner, as well as centrally compiled and evaluated, in order to enable targeted research on COVID-19. This is where CODEX comes in."
+          "HEADER": "How can data be imported?",
+          "BODY": "With the openEHR_FLAT_Loader there are python-based scripts available to import/export data using CLI and REST. Those scripts can generate an Excel-Mapping-File that allows you to map your source-data (.csv-File) to an existing openEHR-Template´s data items. With this manual user-supplied mapping you may use the scripts to generate Compositions-Files that can also be uploaded to an openEHR-Repository-Server (like EHRBase or Better Server). See the github repository of the openEHR_FLAT_Loader for more informationen. There are also other solution available (e.g. see HaMSTRETLBuilder)."
         },
         {
           "HEADER": "CODEX User Portal",
@@ -31,8 +31,8 @@
       "HEADER": "Participating Clinics"
     },
     "METRICS": {
-      "PROJECTS": "{{count}} Projects published in CODEX",
-      "QUERIES": "{{count}} criteria available in CODEX",
+      "PROJECTS": "{{count}} Projects published in ZLG-Platform",
+      "QUERIES": "{{count}} criteria available in ZLG-Platform",
       "ORGANIZATIONS": "{{count}} participating university hospitals"
     }
   },
@@ -54,7 +54,7 @@
     }
   },
   "NAVIGATION": {
-    "DASHBOARD": "Welcome to CODEX",
+    "DASHBOARD": "Welcome to ZLG",
     "DATA_FILTER": "Data Filter",
     "PATIENT_FILTER": "Patients Filter",
     "PROJECTS": "Projects",
@@ -150,7 +150,7 @@
     "EDIT_INFO_CARDS_HEADER": "Edit Info Tiles",
     "EDIT_INFO_CARDS_DESCRIPTION": "You can insert info tiles on the welcome page, which can contain information and a link to an external page.",
     "EDIT_NAVIGATION_ITEMS_HEADER": "Edit Navigation Items",
-    "EDIT_NAVIGATION_DESCRIPTION": "You can add, edit or delete custom links in the navigation. The links only refer to other websites that may be of interest to users of the CODEX research data platform.",
+    "EDIT_NAVIGATION_DESCRIPTION": "You can add, edit or delete custom links in the navigation. The links only refer to other websites that may be of interest to users of the research data platform.",
     "URL_PLACEHOLDER": "E.g. https://www.domain.com",
     "URL_TEXT_PLACEHOLDER": "E.g. Uni Example City",
     "URL_TEXT_LABEL": "Link text",
@@ -456,9 +456,9 @@
   },
   "USER_MANAGEMENT": {
     "NEW_USERS_HEADER": "All New Users",
-    "NEW_USERS_DESCRIPTION": "The following list shows the new registered users who have not yet been assigned to a role.\n\nPlease review the users and assign them to a role so that they can participate in the CODEX research data platform.",
+    "NEW_USERS_DESCRIPTION": "The following list shows the new registered users who have not yet been assigned to a role.\n\nPlease review the users and assign them to a role so that they can participate in the research data platform.",
     "ALL_USERS_HEADER": "All Approved Users",
-    "ALL_USERS_DESCRIPTION": "In the following list you can see all active users of the CODEX research data platform. If required, you can assign other roles to the users or deactivate them.",
+    "ALL_USERS_DESCRIPTION": "In the following list you can see all active users of the research data platform. If required, you can assign other roles to the users or deactivate them.",
     "EDIT_USER_DIALOG_HEADER": "Edit User",
     "EDIT_USER_DESCRIPTION": "The user will be informed about the approval by e-mail.",
     "ASSIGN_ROLES": "Assign user role(s)",
@@ -557,15 +557,15 @@
   },
   "DATA_PROTECTION": {
     "TITLE": "Data protection information",
-    "DESCRIPTION": "The entity responsible for the operation of this website takes the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with applicable data protection regulations.",
+    "DESCRIPTION": "The entity responsible for the operation of this website takes the protection of  personal data very seriously. We treat your personal data confidentially and in accordance with applicable data protection regulations. <br/>Regarding this test instance of the zlg-platform there is no data captured beyond the information you supply when visiting/using the website.",
     "RESPONSIBLE_ENTITY_TITLE": "1. Note regarding the responsible entity",
-    "RESPONSIBLE_ENTITY_TEXT": "Responsible for data processing on this website is: <br/> HiGHmed e.V. <br/> Langer Anger 7/9 <br/> 69115 Heidelberg",
+    "RESPONSIBLE_ENTITY_TEXT": "Responsible for data processing on this website is: <br/> University Medical Center Göttingen <br/> Department of Medical Informatics <br/> Robert-Koch-Str. 40 <br/> 37075 Göttingen, Germany",
     "OFFICER_TITLE": "2. Data Protection Officer",
     "OFFICER_DESCRIPTION": "If you have any questions about the processing of your personal data, as well as your rights regarding data protection, please contact our data protection officer:",
-    "OFFICER_TEXT1": "Dirk Seeliger <br/> expertree consulting GmbH <br/> Friedensallee 110 <br/> 63263 Neu-Isenburg",
-    "OFFICER_TEXT2": "E-Mail: <a href=\"mailto:ds-service@expertree.de \">ds-service@expertree.de</a> <br/> Phone: 069 / 6102 8150 556 Expertree",
+    "OFFICER_TEXT1": "Florian Gottschalk <br/> University Medical Center <br/> 37099 Göttingen",
+    "OFFICER_TEXT2": "E-Mail: <a href=\"mailto:datenschutz@med.uni-goettingen.de \">datenschutz@med.uni-goettingen.de</a> <br/> Phone: 0551 / 39 62 762",
     "GENERAL_DATA_TITLE": "3. General data and information when visiting the website",
-    "GENERAL_DATA_DESCRIPTION": "The website operated by HiGHmed e.V. collects a series of general data and information with each call of the website. This general data and information is stored in the log files of the server and automatically transmitted to HiGHmed e.V. by your browser. The following data may be collected:",
+    "GENERAL_DATA_DESCRIPTION": "The website operated by Department of Medical Informatics collects a series of general data and information with each call of the website. This general data and information is stored in the log files of the server and automatically transmitted to HiGHmed e.V. by your browser. The following data may be collected:",
     "GENERAL_DATA_LIST": [
       {
         "TEXT": "IP address;"
@@ -656,8 +656,6 @@
         "TITLE": "a. Processor",
         "SUBTITLE1": "Operations",
         "TEXT1": "Data Center of GWDG <br/> GWDG - Gesellschaft für wissenschaftliche <br/> Datenverarbeitung mbH Göttingen <br/> Am Fassberg 11, 37077 Göttingen <br/> E-Mail: <a href=\"mailto:piotr.kasprzak@gwdg.de\">piotr.kasprzak@gwdg.de</a> <br/> www: <a href=\"https://www.gwdg.de\">https://www.gwdg.de</a>",
-        "SUBTITLE2": "Administration Platform",
-        "TEXT2": "vitagroup health intelligence GmbH <br/> Hamburger Str. 273b <br/> 38114 Braunschweig <br/> E-Mail: <a href=\"mailto:itos@vitagroup.ag\">itos@vitagroup.ag</a> <br/> www: <a href=\"https://www.vitagroup.ag\">https://www.vitagroup.ag</a>"
       },
       "PART_B": {
         "TITLE": "b. Third parties",
@@ -762,7 +760,7 @@
       "RIGHTS_PART_K": {
         "TITLE": "k. Right to complain to a supervisory authority",
         "DESCRIPTION": "Without prejudice to any other administrative or judicial remedy, you have the right to lodge a complaint with a supervisory authority if you believe the processing of your personal data infringes the GDPR. The competent supervisory authority in matters of data protection law is the State Data Protection Commissioner of the federal state in which the responsible party has its registered office.",
-        "TEXT": "HiGHmed e.V. has its registered office in Heidelberg. <br/> The competent supervisory authority is therefore: <br/> The State Commissioner for Data Protection and Freedom of Information in Baden-Württemberg. <br/> Lautenschlagerstraße 20 <br/> 70173 Stuttgart <br/> E-mail: <a href=\"mailto:poststelle@lfdi.bwl.de\">poststelle@lfdi.bwl.de </a>"
+        "TEXT": "The data protection supervisory authority responsible for the UMG in Göttingen is the data protection supervisory authority: <br/> The State Commissioner for Data Protection of Lower Saxony <br/> Prinzenstraße 5 <br/> 30159 Hannover <br/> E-mail: <a href=\"mailto:poststelle@lfd.niedersachsen.de\">poststelle@lfd.niedersachsen.de </a>"
       }
     },
     "PRIVACY_INFO": {
@@ -772,18 +770,12 @@
   },
   "CONTACT": {
     "TITLE": "Contact",
-    "DESCRIPTION": "Responsible according to Art. 4 sentence 1 No. 7 DSGVO for the central platform of CODEX is HiGHmed e. V. as coordinating body.",
-    "SUBTITLE1": "Information within the meaning of § 5 TMG",
-    "TEXT1": "HiGHmed e. V. <br/> Langer Anger 7/9 <br/> 69115 Heidelberg",
-    "SUBTITLE2": "Authorized representative",
-    "TEXT2": "HiGHmed e.V. is a registered association and legally represented by the management board: <br/> Prof. Dr. Roland Eils (Chairman, with sole power of representation) <br/> Prof. Dr. Michael Marschollek (deputy chairman) <br/> Prof. Dr. Björn Bergh <br/> Prof. Dr. Ramin Yahyapour <br/> Dr.-Ing. Steffen Ortmann",
-    "TEXT3": "Registration number: VR 702758, Amtsgericht Mannheim - Vereinsregister -",
-    "TEXT4": "Contact: <a href=\"https://www.highmed.org/de/kontakt-highmed-ev\" target=\"_blank\">https://www.highmed.org/de/kontakt-highmed-ev</a>",
-    "SUBTITLE3": "Responsible for journalistic-editorial offers within the meaning of § 55 Abs.2 RStV",
-    "TEXT5": "Ralf Heyder, Head of the Coordination ffice <br/> Charitéplatz 1 <br/> 10117 Berlin <br/> Phone: 030 450 570 292 <br/> <a href=\"mailto:forschungsnetzwerk-unimedizin@charite.de\">forschungsnetzwerk-unimedizin@charite.de</a>",
-    "TEXT6": "The GWDG is technically responsible for the central IT infrastructure used. The GWDG is also responsible for the administration of the infrastructure and the network administration. On the application level, the central research platform is administered by vitasystems GmbH. Both the GWDG and vitasystems GmbH act on behalf of the coordinating body.",
-    "SUBTITLE4": "Contact",
-    "SUBTITLE5": "Handling contact data",
+    "DESCRIPTION": "This is a test instance of the zlg-platform that does not store real patient/medical data in any way.",
+    "SUBTITLE1": "Contact",
+    "TEXT1": "University Medical Center Göttingen <br/> Department of Medical Informatic <br/> Prof. Dr. Dagmar Krefting <br/> Head of Department <br/> Robert-Koch-Str. 40 <br/> 37075 Göttingen, Germany",
+    "SUBTITLE2": "If you have any Question please contact the current maintainer",
+    "TEXT2": "Jendrik Richter <br/> Robert-Koch-Str. 40 <br/> 37075 Göttingen, Germany <br/> <a href=\"mailto:jendrik.richter@med.uni-goettingen.de\">jendrik.richter@med.uni-goettingen.de</a>",
+    "SUBTITLE3": "Handling contact data",
     "CONTACT_HANDLING1": "If you send us inquiries, the contact data you provide will be stored by us for the purpose of processing the inquiry and in case of follow-up questions. It is up to you which contact data you enter, it is not mandatory, but you must provide at least one contact option (address, telephone or e-mail) so that we can process your request. We will not pass on the data you have entered without your consent. If this is planned, we will ask you for your consent beforehand.",
     "CONTACT_HANDLING2": "The legal basis is Art. 6 para. 1 lit. f DSGVO. Our legitimate interest is to answer your inquiry. If the contact request is directed to an existing contract, the legal basis for the processing is Art. 6 (1) lit. b DSGVO.",
     "CONTACT_HANDLING3": "We delete your personal data as soon as we have fully processed your request. This is usually the case with the end of the conversation with you, unless we are obliged to keep it longer to comply with our legal obligations.",
@@ -792,43 +784,18 @@
   "IMPRINT": {
     "TEXTS": {
       "HEADING": "Disclosure",
-      "DESCRIPTION": "Responsible according to Art. 4 sentence 1 No. 7 DSGVO for the operation of the website is the HiGHmed e.V.",
-      "INFO_HEADER": "Informations i.S.d. § 5 TMG",
-      "INFO_CONTENT": "HiGHmed e.V: <br /> Langer Anger 7/9 <br /> 69115 Heidelberg <br /><br /> E-Mail: geschaeftsstelle@highmed.org",
-      "REPRESENTATIVE_TITLE": "Authorized representative",
-      "REPRESENTATIVE_DESCRIPTION": "HiGHmed e.V. is a registered association and legally represented by the management board",
-      "PROFS": [
-        "Prof. Dr. Roland Eils (Chairman, with sole power of representation)",
-        "Prof. Dr. Michael Marschollek (deputy chairman)",
-        "Prof. Dr. Björn Bergh",
-        "Prof. Dr. Ramin Yahyapour",
-        "Dr.-Ing. Steffen Ortmann"
-      ],
-      "REGISTRATION_NUMBER_TITLE": "Registration number",
-      "REGISTRATION_NUMBER_TEXT": "VR 702758, Amtsgericht Mannheim - Vereinsregister -",
-      "VAT_TITLE": "VAT number",
-      "VAT_TEXT": "VAT number not issued",
-      "JOURNALISTIC_EDITORIAL_TITLE": "Responsible for journalistic-editorial offers within the meaning of § 55 Abs.2 RStV",
-      "JOURNALISTIC_EDITORIAL_TEXT": "HiGHmed e.V. <br /> Prof. Dr. Roland Eils <br /> Langer Anger 7/9 <br /> 69115 Heidelberg <br /> <a href=\"mailto:geschaeftsstelle@highmed.org\">geschaeftsstelle@highmed.org</a>",
+      "DESCRIPTION": "This is a test instance of the zlg-platform that does not store real patient/medical data in any way.",
       "CONTACT_TITLE": "Contact",
-      "CONTACT_TEXT": "HiGHmed e.V <br /> Langer Anger 7/9 <br /> 69115 Heidelberg <br /> E-Mail: <a href=\"mailto:geschaeftsstelle@highmed.org\">geschaeftsstelle@highmed.org</a> <br /> <a href=\"https://www.highmed.org\">https://www.highmed.org</a>",
+      "CONTACT_TEXT": "University Medical Center Göttingen <br/> Department of Medical Informatic <br/> Prof. Dr. Dagmar Krefting <br/> Head of Department <br/> Robert-Koch-Str. 40 <br/> 37075 Göttingen, Germany",
       "DISCLAIMER_TITLE": "Disclaimer and copyright",
-      "DISCLAIMER_TEXT1": "The website operated by HiGHmed e.V. offers you a variety of information that is updated regularly. You can save our information and set up links to our pages. When linking to commercial providers, the linked website must be the sole component of the navigator window. The information may not be altered or falsified.",
+      "DISCLAIMER_TEXT1": "The website offers you information that isn't updated regularly. When linking to commercial providers, the linked website must be the sole component of the navigator window. The information may not be altered or falsified.",
       "DISCLAIMER_TEXT2": "The content, works and information provided on this website are subject to German copyright and ancillary copyright laws. Any duplication, processing or use in other printed publications is only permitted with the prior consent of the author or copyright holder. Furthermore, pictures, graphics, text or other files may be subject to the copyright of third parties.  Contents of third parties are marked as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any infringements, we will remove such content immediately.",
       "OWN_PAGES_TITLE": "Content of own pages",
-      "OWN_PAGES_TEXT": "The operator of the website, HiGHmed e.V., assumes no responsibility for the topicality, completeness or quality of the content provided. All free offers are non-binding. The editors reserve the right to change, amend, delete or cease publication of the offer at any time without prior notice.",
+      "OWN_PAGES_TEXT": "The operator of the website assumes no responsibility for the topicality, completeness or quality of the content provided. All free offers are non-binding. The editors reserve the right to change, amend, delete or cease publication of the offer at any time without prior notice.",
       "LINKS_TITLE": "Links to the websites of third parties",
-      "LINKS_TEXT1": "The operator of the website, HiGHmed e.V., is responsible as a content provider according to § 7 paragraph 1 of the German Telemedia Act (Telemediengesetz) for its \"own content\", which it makes available for use, in accordance with general laws. These own contents are to be distinguished from cross-references (\"links\") to contents provided by other providers. By means of the cross-reference, HiGHmed e.V. provides \"third-party content\" for use, which is identified in this manner.",
-      "LINKS_TEXT2": "The published links are researched and compiled with the greatest possible care. The operator of the website, HiGHmed e.V., has checked the external content at the time of the initial linking as to whether it may trigger  any civil or criminal liability. If it determines or is informed by others that a specific offer to which it has provided a link triggers civil or criminal liability, it will remove the reference to this offer. HiGHmed e.V. is only responsible for external references if it has positive knowledge of (potentially) illegal or criminal content and it is technically possible and reasonable to prevent its use.",
-      "PUBLIC_KEYS_TITLE": "Public Keys"
+      "LINKS_TEXT1": "The operator of the website is responsible as a content provider according to § 7 paragraph 1 of the German Telemedia Act (Telemediengesetz) for its \"own content\", which it makes available for use, in accordance with general laws. These own contents are to be distinguished from cross-references (\"links\") to contents provided by other providers. By means of the cross-reference, the website provides \"third-party content\" for use, which is identified in this manner.",
+      "LINKS_TEXT2": "The published links are researched and compiled with the greatest possible care. The operator of the website has checked the external content at the time of the initial linking as to whether it may trigger any civil or criminal liability. If it determines or is informed by others that a specific offer to which it has provided a link triggers civil or criminal liability, it will remove the reference to this offer. The operator is only responsible for external references if it has positive knowledge of (potentially) illegal or criminal content and it is technically possible and reasonable to prevent its use.",
     },
-    "PUBLIC_KEY_LINKS": {
-      "INTRO": "Here you will find the links to the respective public keys for the secure transmission of data to Prod, or Pre-Prod.",
-      "LINK_PRE_PROD_HREF": "https://keys.num-codex.de/crr_public-key-pre-prod.pem",
-      "LINK_PRE_PROD_DESCRIPTION": "Public Key for Pre-Prod",
-      "LINK_PROD_HREF": "https://keys.num-codex.de/crr_public-key-prod.pem",
-      "LINK_PROD_DESCRIPTION": "Public Key for Prod"
-    }
   },
   "AQL_CONNECTOR_ITEM_CHECKBOX_TOOLTIP": "If this checkbox is enabled, the value for the criterion can be set. If the checkbox is disabled, all patients are selected, where this criterion is documented regardless of the documented value."
 }
