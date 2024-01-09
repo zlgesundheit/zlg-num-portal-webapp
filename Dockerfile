@@ -15,7 +15,7 @@
 ### STAGE 1: Build ###
 FROM node:16-alpine3.11 AS build
 WORKDIR /usr/src/app
-COPY . .
+COPY . /usr/src/app/
 RUN npm install
 ARG ENVIRONMENT=deploy
 RUN npm run build -- --configuration=${ENVIRONMENT}
