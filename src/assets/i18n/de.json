@@ -561,7 +561,7 @@
     "TITLE": "Datenschutzinformation",
     "DESCRIPTION": "Der Betriebsverantwortliche dieser Website nimmt den Schutz Ihrer personenbezogenen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften.",
     "RESPONSIBLE_ENTITY_TITLE": "1. Hinweis zum Verantwortlichen",
-    "RESPONSIBLE_ENTITY_TEXT": "Der Verantwortliche für die Datenverarbeitung auf dieser Website ist: <br /> Universitätsmedizin Göttingen <br /> Institut für Medizinische Informatik <br/> Robert-Koch-Str. 40 <br /> 37075 Göttingen, Deutschland",
+    "RESPONSIBLE_ENTITY_TEXT": "Der Verantwortliche für die Datenverarbeitung auf dieser Website ist: <br/> Universitätsmedizin Göttingen <br/> Institut für Medizinische Informatik <br/> Robert-Koch-Str. 40 <br/> 37075 Göttingen, Deutschland",
     "OFFICER_TITLE": "2. Datenschutzbeauftragter",
     "OFFICER_DESCRIPTION": "Bei Fragen zur Verarbeitung Ihrer personenbezogenen Daten, sowie zu Ihren Rechten rund um den Datenschutz, wenden Sie sich bitte an unseren Datenschutzbeauftragten:",
     "OFFICER_TEXT1": "Florian Gottschalk <br/> Universitätsmedizin Göttingen <br/> 37099 Göttingen",
@@ -660,7 +660,7 @@
       "PART_A": {
         "TITLE": "a. Auftragsverarbeiter",
         "SUBTITLE1": "Operativer Betrieb",
-        "TEXT1": "Rechenzentrum der GWDG <br /> GWDG - Gesellschaft für wissenschaftliche <br /> Datenverarbeitung mbH Göttingen <br /> Am Fassberg 11, 37077 Göttingen <br /> E-Mail: <a href=\"mailto:piotr.kasprzak@gwdg.de\">piotr.kasprzak@gwdg.de</a> <br /> www: <a href=\"https://www.gwdg.de\" target=\"_blank\" rel=\"noopener\">https://www.gwdg.de</a>"
+        "TEXT1": "Rechenzentrum der GWDG <br/> GWDG - Gesellschaft für wissenschaftliche <br/> Datenverarbeitung mbH Göttingen <br/> Am Fassberg 11, 37077 Göttingen <br/> E-Mail: <a href=\"mailto:piotr.kasprzak@gwdg.de\">piotr.kasprzak@gwdg.de</a> <br/> www: <a href=\"https://www.gwdg.de\" target=\"_blank\" rel=\"noopener\">https://www.gwdg.de</a>"
       },
       "PART_B": {
         "TITLE": "b. Dritte",
@@ -765,7 +765,7 @@
       "RIGHTS_PART_K": {
         "TITLE": "k. Recht auf Beschwerde bei einer Aufsichtsbehörde",
         "DESCRIPTION": "Unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs steht Ihnen das Recht auf Beschwerde bei einer Aufsichtsbehörde zu, wenn Sie der Ansicht sind, dass die Verarbeitung der Sie betreffenden personenbezogenen Daten gegen die DSGVO verstößt. Zuständige Aufsichtsbehörde in datenschutzrechtlichen Fragen ist der Landesdatenschutzbeauftragte des Bundeslandes, in dem der Verantwortlicheseinen Sitz hat.",
-        "TEXT": "Für die UMG in Göttingen ist die im Rahmen des Datenschutzes zuständige Datenschutz-Aufsichtsbehörde: <br/> Die Landesbeauftragte für den Datenschutz Niedersachsen <br /> Prinzenstraße 5 <br /> 30159 Hannover <br /> E-Mail: <a href=\"mailto:poststelle@lfd.niedersachsen.de\">poststelle@lfd.niedersachsen.de</a>"
+        "TEXT": "Für die UMG in Göttingen ist die im Rahmen des Datenschutzes zuständige Datenschutz-Aufsichtsbehörde: <br/> Die Landesbeauftragte für den Datenschutz Niedersachsen <br/> Prinzenstraße 5 <br/> 30159 Hannover <br/> E-Mail: <a href=\"mailto:poststelle@lfd.niedersachsen.de\">poststelle@lfd.niedersachsen.de</a>"
       }
     },
     "PRIVACY_INFO": {
@@ -800,7 +800,7 @@
       "LINKS_TITLE": "Links auf die Websites Dritter",
       "LINKS_TEXT1": "Der Betreiber der Website ist als Inhaltsanbieter nach § 7 Abs. 1 Telemediengesetz für die \"eigenen Inhalte\", die er zur Nutzung bereithält, nach den allgemeinen Gesetzen verantwortlich. Von diesen eigenen Inhalten sind Querverweise (\"Links\") auf die von anderen Anbietern bereitgehaltenen Inhalte zu unterscheiden. Durch den Querverweis hält die Website \"fremde Inhalte\" zur Nutzung bereit, die in dieser Weise gekennzeichnet sind.",
       "LINKS_TEXT2": "Die veröffentlichten Links werden mit größtmöglicher Sorgfalt recherchiert und zusammengestellt. Der Betreiber der Website hat bei der erstmaligen Verknüpfung den fremden Inhalt daraufhin überprüft, ob durch ihn eine mögliche zivilrechtliche oder strafrechtliche Verantwortlichkeit ausgelöst wird. Wenn er feststellt oder von anderen darauf hingewiesen wird, dass ein konkretes Angebot, zu dem er einen Link bereitgestellt hat, eine zivil- oder strafrechtliche Verantwortlichkeit auslöst, wird er den Verweis auf dieses Angebot aufheben. Für fremde Hinweise ist der Betreiber nur dann verantwortlich, wenn er von einem rechtswidrigen oder strafbaren Gehalt positive Kenntnis hat und es technisch möglich und zumutbar ist, deren Nutzung zu verhindern."
-    },
+    }
   },
   "AQL_CONNECTOR_ITEM_CHECKBOX_TOOLTIP": "Ist diese Checkbox aktiviert, kann für das Kriterium ein Wert festgelegt werden. Wenn die Checkbox deaktiviert wird, werden alle Patienten ausgewählt, bei denen dieses Kriterium dokumentiert ist, unabhängig vom dokumentierten Wert."
 }
