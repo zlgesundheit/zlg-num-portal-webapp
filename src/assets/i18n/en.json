@@ -651,7 +651,7 @@
     "COOKIES_TEXT5": "You can set your browser so that you are informed about the setting of cookies and allow cookies only in individual cases, exclude the acceptance of cookies for certain cases or in general, as well as activate the automatic deletion of cookies when closing the browser. If cookies are deactivated, the functionality of this website may be limited. Cookies that are required to carry out the electronic communication process or to provide the website are stored on the basis of Art. 6 (1) lit. f DSGVO. We have a legitimate interest in storing cookies for the technically error-free provision of our services. We use the data collected by cookies for as long as they are required for the respective purpose mentioned.",
     "RECIPIENTS": {
       "TITLE": "7. Recipients of personal data",
-      "DESCRIPTION": "We will only share your personal data with service providers and other third parties in accordance with applicable data protection laws.",
+      "DESCRIPTION": "We strictly limit the processing of your personal information, and in general process as little data as possible to fulfill our mission. We won't sell your data to any third party.",
       "PART_A": {
         "TITLE": "a. Processor",
         "SUBTITLE1": "Operations",
